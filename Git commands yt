@@ -18,3 +18,43 @@ Cmd 11: git checkout branchName ( switched to this branch)
 Cmd 12: git checkout master (switched to master branch)
 Cmd 13: git merge branchName ( when you are in master branch then you can use it to merge your branch with master)
 Cmd 14: git checkout -b branchName ( branch is created and switched to this branch)
+====================================================================================================================
+COMMANDS BY PARTH NOTE:   (Please Note that Github Pull and Push commands are note here) 
+====================================================================================================================
+
+GIt:
+Distributed version control system.
+
+-> It can be used with anything means in webdev or android app dev or anything!
+
+
+-> Git can be cloning as well as initializing.
+
+-> when we use command "git add -A"
+this will add all the files which are available in the folder to staging area.
+
+->git commit -m "Added more HTML"
+
+we can use this command to commit without VIM editor
+
+->git checkout filename
+this command will be used to match your file with last commit command
+
+->git checkout -f will match up all the files with last commit.
+
+->git log: this will give you the commits that you have done or performed
+
+->git diff: this commmand will comare your working tree with your staging area.
+
+->git diff --staged: will compare your staging area with last commit
+
+->git rm : removes from working directory and from staging area also.
+
+->git status -s: will gives us short status.
+
+=>BRANCH:
+	branch is useful to create a different copy.
+ main branch is master branch and if we want to make a new project then it will be second branch.
+
+	git branch feature1.(will create branch named feature1.)
+	git merge feature1..(Will merge feature1 branch with master)
